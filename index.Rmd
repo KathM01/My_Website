@@ -3,7 +3,7 @@ title: "My Website"
 ---
 
 
-```{r}
+```{r, echo = FALSE}
 knitr::include_graphics("/Users/kathypagan/Desktop/UNH/Courses/1st Semester/Data Sciences/Rdocuments/My_Website/IMG_1111.JPG")
 ```
 
