@@ -1,5 +1,22 @@
 ---
-title: "About This Website"
+title: "Background"
 ---
+If you want to know more about my past work, you can open and look at my CV.
 
-More about this website.
+```{r, echo = FALSE}
+xfun::pkg_load2(c("htmltools", "mime"))
+```
+
+
+```{r, echo = FALSE, out.width="100%", out.height=650}
+knitr::include_graphics("/Users/kathypagan/Desktop/UNH/Courses/1st Semester/Data Sciences/Rdocuments/My_Website/Pagán_Rivera_CV.pdf")
+```
+
+
+
+
+```{r, echo = FALSE}
+xfun::embed_file("/Users/kathypagan/Desktop/UNH/Courses/1st Semester/Data Sciences/Rdocuments/My_Website/Pagán_Rivera_CV.pdf")
+```
+
+
